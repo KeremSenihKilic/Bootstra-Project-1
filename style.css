@@ -1,0 +1,169 @@
+
+
+body {
+    font: 'poppins';
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#navbar {
+    padding: 0px 9% 0px;
+}
+
+html::-webkit-scrollbar {
+
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent !important; 
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgb(66, 226, 17);
+}
+
+
+.nav-item .nav-link:hover {
+color: rgb(66, 226, 17) !important;
+cursor: pointer;
+}
+
+.main-header {
+    display: flex;
+    margin-top: 128px;
+    flex-wrap: nowrap;
+}
+
+@media(max-width:800px) {
+    .main-header {
+        flex-wrap: wrap;
+    }
+
+    .main-header img {
+        position: absolute;
+    }
+}
+
+.main-header .image img {
+    height: 400px;
+    width: 600px;
+    margin-left: 150px;
+    transition: all 0.6s;
+
+}
+
+.main-header .image img:hover {
+    transform: translate(10px, -25px);
+}
+
+.main-header .text p {
+    width: 300px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.main-header .text {
+    margin-left: 150px;
+}
+
+.main-header .text h3 span{
+color: rgb(66, 226, 17);
+font-weight: bolder;
+}
+
+.main-header .text h3 {
+    font-weight: bold;
+}
+
+.main-header .text button {
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(66, 226, 17);
+    border: 1px solid rgb(66, 226, 17);
+    color: white;
+    font-weight: bolder;
+    margin-top: 40px;
+    transition: all 0.7s;
+}
+
+.main-header .text button:hover {
+    background: rgb(43, 41, 41);
+    border: 1px solid rgb(43, 41, 41);
+}
+
+.top-section {
+    padding: 10px 11% 100px;
+    padding-top: 50px;
+}
+
+.top-section .row {
+    margin-top: 30px;
+}
+
+.top-section .row .card img {
+    width: 200px;
+    margin: auto;
+  }
+  /* top section end */
+  /* our menu */
+  .menu {
+    padding: 10px 11% 100px;
+  }
+  .rating i {
+    color: #f9a502;
+  }
+  .menu p {
+    margin-top: 8px;
+    font-weight: bolder;
+  }
+  .menu p i {
+    float: right;
+    color: crimson;
+  }
+  /* order */
+  .order {
+    padding: 100px 11% 100px;
+  }
+  /* review */
+  .review {
+    padding: 100px 11% 100px;
+  }
+  @media (min-width: 768px) {
+    #content {
+      padding: 100px;
+    }
+  }
+  /* contact section */
+  .contact {
+    padding: 100px 11% 100px;
+  }
+  /* footer */
+  #footer {
+    padding: 15px 11% 15px;
+  }
+  .f-content {
+    text-align: center;
+  }
+  .f-logo img {
+    width: 250px;
+  }
+  .f-content i {
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  .f-content i:hover {
+    background: crimson;
+    border-radius: 5px;
+    color: white;
+  }
+  .c-content {
+    text-align: center;
+  }
